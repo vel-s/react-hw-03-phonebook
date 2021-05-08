@@ -29,6 +29,24 @@ class App extends Component {
     filter: '',
   }
   
+  componentDidMount() {
+    console.log('DIdMount')
+    const savedContacts = localStorage.getItem('contacts')
+    if (savedContacts) {
+      console.log('Saved Contacts -> ', JSON.parse(savedContacts))
+      this.setState({
+        contacts: JSON.parse(savedContacts)
+      })
+    }
+  }
+  
+  componentDidUpdate(prevProps, prevState) {
+    console.log('DidUpdate')
+    if (prevState.contacts !== this.state.contacts) {
+      localStorage.setItem('contacts', JSON.stringify(this.state.contacts))
+    }
+  }
+  
   add = (name, number) =>
     this.setState(prevState =>
       ({ contacts: [...prevState.contacts, { id: uuidv4(), name: name, number: number}]}))
@@ -44,8 +62,11 @@ class App extends Component {
     return contacts.filter(contact => contact.name.toLowerCase().includes(filter.toLowerCase()))
   }
   
+  
+  
+  
   render() {
-    let {contacts, filter} = this.state
+    let {contacts} = this.state
     let visibleContacts = this.getVisibleContacts()
     return (
       <div className={"App"}>

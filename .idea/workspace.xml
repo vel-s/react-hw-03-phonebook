@@ -2,34 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45b56585-da36-42fd-8b40-5f8f78f9f432" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ContactForm/ContactForm.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ContactForm/ContactForm.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ContactForm/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ContactList/ContactItem/Contact.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ContactList/ContactItem/ContactItem.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ContactList/ContactItem/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ContactList/ContactList.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ContactList/ContactList.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ContactList/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Filter/Filter.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Filter/Filter.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Filter/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Filter/Filter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Filter/Filter.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Filter/Filter.module.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1620120826456</updated>
-      <workItem from="1620120829900" duration="7616000" />
+      <workItem from="1620120829900" duration="13023000" />
     </task>
     <servers />
   </component>
@@ -98,5 +74,9 @@
       <screen x="0" y="0" width="3840" height="1040" />
     </state>
     <state x="690" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.3840.1040/3840.0.1920.1040@0.0.3840.1040" timestamp="1620122158621" />
+    <state x="2671" y="435" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1620474364556">
+      <screen x="0" y="0" width="3840" height="1040" />
+    </state>
+    <state x="2671" y="435" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.3840.1040/3840.0.1920.1040@0.0.3840.1040" timestamp="1620474364556" />
   </component>
 </project>
